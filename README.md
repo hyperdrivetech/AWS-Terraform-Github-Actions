@@ -1,5 +1,6 @@
 # AWS-Terraform-Github-Actions
-Using Git workflow with Terraform and AWS Backend. See the full blog post here. 
+Using Git workflow with Terraform and AWS Backend. See the full blog post here.
+https://hyperdrive.tech/blog/using-github-actions-terraform-and-aws/
 
 
 ## SETUP 
