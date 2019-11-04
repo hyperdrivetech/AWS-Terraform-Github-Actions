@@ -9,8 +9,9 @@ Using Git workflow with Terraform and AWS Backend
 
 
 1. fork/clone repo 
-2. Enable [branch protection](https://help.github.com/en/enterprise/2.16/admin/developer-workflow/configuring-protected-branches-and-required-status-checks) on master 
-3. [Use Gitflow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
+2. Modify `provider.tf` and add `bucket`, `key`, `region`. (Bucket must be created outside terraform)
+3. Enable [branch protection](https://help.github.com/en/enterprise/2.16/admin/developer-workflow/configuring-protected-branches-and-required-status-checks) on master 
+4. [Use Gitflow](https://datasift.github.io/gitflow/IntroducingGitFlow.html)
 
 ```
 git clone git@github.com:hyperdrivetech/AWS-Terraform-Github-Actions.git
